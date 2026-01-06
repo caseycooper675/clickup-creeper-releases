@@ -1,6 +1,6 @@
 # ClickUp Creeper — Releases
 
-This repository contains **official Windows installer releases** for **ClickUp Creeper**, an internal productivity tool used by the Kratos team.
+This repository contains **official Windows installer releases** for **ClickUp Creeper**, an internal productivity tool.
 
 ✅ **Source code is not hosted here.**  
 This repo exists only to provide a stable, public download location so the app can check GitHub Releases for updates without requiring GitHub authentication.
@@ -47,24 +47,28 @@ Running the new installer will upgrade the existing installation.
 
 ---
 
-## Release integrity (SHA256)
-
-Some releases include a SHA256 checksum file:
-- `ClickUpCreeperSetup-X.Y.Z.sha256.txt`
-
-If present, it can be used to verify the installer download was not corrupted.
-
----
-
-## Support (internal users)
+## Support (internal users only)
 
 If something isn’t working, please include:
 - App version
 - What you expected vs what happened
 - A screenshot if possible
-- Logs (if the app provides an “Open logs folder” menu item)
+- Logs (if the app provides any)
 
-Internal contact: **[YOUR NAME / TEAM CONTACT]**
+Send items to developer over email or teams.
+
+---
+
+## Versioning policy
+
+ClickUp Creeper uses Semantic Versioning (`MAJOR.MINOR.PATCH`).
+
+- **MAJOR**: Breaking changes (things that require users/admins to change config, URLs, or update procedures).
+- **MINOR**: New features that are backward-compatible (no required changes for users).
+- **PATCH**: Bug fixes and small improvements that do not change behavior in incompatible ways.
+
+### Pre-1.0 versions
+Until `v1.0.0`, the project is considered “stabilizing.” We will still follow SemVer, but **minor versions may include larger internal changes** while keeping the app usable for the team.
 
 ---
 
