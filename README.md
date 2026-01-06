@@ -67,6 +67,13 @@ ClickUp Creeper uses Semantic Versioning (`MAJOR.MINOR.PATCH`).
 - **MINOR**: New features that are backward-compatible (no required changes for users).
 - **PATCH**: Bug fixes and small improvements that do not change behavior in incompatible ways.
 
+Examples:
+v0.1.0 = first team deploy (“works end-to-end”)
+
+v0.1.1 / v0.1.2 = early hotfixes
+
+v0.2.0 = first meaningful feature expansion
+
 ### Pre-1.0 versions
 Until `v1.0.0`, the project is considered “stabilizing.” We will still follow SemVer, but **minor versions may include larger internal changes** while keeping the app usable for the team.
 
