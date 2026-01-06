@@ -68,6 +68,7 @@ ClickUp Creeper uses Semantic Versioning (`MAJOR.MINOR.PATCH`).
 - **PATCH**: Bug fixes and small improvements that do not change behavior in incompatible ways.
 
 Examples:
+
 v0.1.0 = first team deploy (“works end-to-end”)
 
 v0.1.1 / v0.1.2 = early hotfixes
